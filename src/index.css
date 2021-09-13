@@ -1,0 +1,67 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+margin: 0.5rem 0;
+}
+h1{
+  font-size: 1.5rem;
+}
+h2{
+ font-size: 1.2rem;
+}
+h3{
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.col-1{
+  flex: 1;
+}
+.col-2{
+  flex: 2;
+}
+.block{
+  background-color: azure;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.row.center{
+  align-items: center;
+}
+img.small{
+  max-height: 8rem;
+
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button.add{
+  background-color: rgb(42, 140, 165);
+  width: 1.5rem;
+}
+button.remove{
+  background-color: brown;
+  width: 1.5rem;
+}
+button.badge{
+  background-color: rgb(228, 25, 25);
+  border: none;
+  width: 1.5rem;
+  color: aliceblue;
+}
