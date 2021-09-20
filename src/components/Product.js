@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Product(props) {
     const {product , onAdd} = props;
+
     return (
         <div>
             <img className="small" src={product.image} alt={product.name}></img>
